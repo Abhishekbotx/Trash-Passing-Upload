@@ -1,0 +1,446 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* @import 'swiper/swiper-bundle.css'; */
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  
+  background: rgb(34,188,77);
+background: linear-gradient(90deg, rgba(34,188,77,1) 0%, rgba(6,67,50,1) 100%);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(48,131,167);
+  background: linear-gradient(90deg, rgba(48,131,167,1) 0%, rgba(19,170,129,1) 100%);
+  border-radius: 3px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #1f6364;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+  
+  /* background-color: rgb(255, 255, 255); */
+}
+
+@media (min-width: 768px) {
+  .text-center {
+    text-align: center;
+  }
+
+  .px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .px-8 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .mt-8 {
+    margin-top: 2rem;
+  }
+
+  .rounded-md {
+    border-radius: 0.375rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .text-center {
+    text-align: center;
+  }
+
+  .px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .mt-4 {
+    margin-top: 1rem;
+  }
+
+  .rounded-md {
+    border-radius: 0.375rem;
+  }
+
+  .text-2xl {
+    font-size: 1.5rem;
+  }
+
+  .text-4xl {
+    font-size: 2.25rem;
+  }
+
+  .text-6xl {
+    font-size: 3.75rem;
+  }
+}
+
+body{
+  overflow-x: hidden;
+}
+
+.nav-gradient{
+  background: rgb(48,167,113);
+background: radial-gradient(circle, rgb(16, 78, 60) 0%, rgba(3,30,33,1) 50%);
+}
+
+.custom-pagination {
+  display: flex;
+  flex-direction: row;
+  gap: 0 0.2vw;
+  margin-left: 4vw;
+  padding-bottom: 10vh;
+  /* justify-content: center; */
+  align-items: center;
+  position: relative;
+  
+
+}
+
+.custom-pagination .swiper-pagination-bullet {
+  background: rgb(255, 255, 255);
+  background:  transparent;
+  opacity: 1;
+  z-index: 50;
+  transform: scale(1.5);
+  border: 1px solid white;
+  width:0.5rem
+}
+
+.custom-pagination .swiper-pagination-bullet-active {
+  background: rgb(255, 255, 255);
+  opacity: 1;
+  transform: scale(2);
+}
+
+
+.custom-color1 {
+  color: #791204;
+}
+
+.view-services-custome-color {
+  background-color: #FFF4CC;
+}
+
+.poppins {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.great-vibes-regular {
+  font-family: "Great Vibes", cursive;
+  font-weight: 500;
+  font-style: normal;
+}
+
+
+.roboto-slab-sm {
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+.roboto-slab {
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+ .raleway {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+ .raleway-sm {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.gabriela-regular {
+  font-family: "Gabriela", serif;
+  font-weight: 400;
+  font-style: normal;
+} 
+
+
+/* footer {
+  width: 100%;
+}
+
+footer .container {
+  max-width: 100%;
+  padding: 0 1rem;
+}
+
+footer .flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+footer .flex > div {
+  flex: 1 1 100%;
+} */
+
+/* @media (min-width: 768px) {
+  footer .flex > div {
+    flex: 1 1 45%;
+  }
+}
+
+@media (min-width: 1024px) {
+  footer .flex > div {
+    flex: 1 1 20%;
+  }
+}
+
+
+
+.mySwiper {
+  width: 100%;
+  height: 100%;
+}
+
+.mySwiper .swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.great-vibes-regular {
+  font-family: 'Great Vibes', cursive;
+}
+
+.custom-color {
+  color: #DAA520; 
+} */
+
+/* .text-white {
+  color: #fff;
+}
+
+.font-serif {
+  font-family: serif;
+}
+
+.view-services-custome-color {
+  background-color: #DAA520;
+}
+
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+} */
+
+/* input[type="checkbox"] { */
+  /* Add if not using autoprefixer */
+  /* -webkit-appearance: none; */
+  /* Remove most all native input styles */
+  /* appearance: none;
+  /* For iOS < 15 */
+  /* background-color: var(--form-background); */
+  /* Not removed via appearance */
+  /* margin: 0; */
+
+  /* font: inherit;
+  color: currentColor;
+  width: 1.15em;
+  height: 1.15em;
+  border: 0.15em solid currentColor;
+  border-radius: 0.15em;
+  transform: translateY(-0.075em);
+
+  display: grid;
+  place-content: center; */
+/* }  */
+
+/* input[type="checkbox"]::before {
+  content: "";
+  width: 0.65em;
+  height: 0.65em; */
+  /* clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
+  transform: scale(0);
+  transform-origin: bottom left;
+  transition: 120ms transform ease-in-out;
+  box-shadow: inset 1em 1em var(--form-control-color);
+  /* Windows High Contrast Mode */
+  /* background-color: purple ; */
+/* }  */
+
+/* input[type="checkbox"]:checked::before {
+  transform: scale(1);
+} */
+
+/* input[type="checkbox"]:focus {
+  outline: max(2px, 0.15em) solid currentColor;
+  outline-offset: max(2px, 0.15em);
+} */
+
+/* input[type="checkbox"]:disabled {
+  --form-control-color: var(--form-control-disabled);
+
+  color: var(--form-control-disabled);
+  cursor: not-allowed;
+}
+
+.cardsmall{ 
+  @media (max-width: 768px) and (min-width: 490px) {
+    width: 100%;
+  }
+} */
+
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+button:hover {
+  border-color: #646cff;
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+
+  a:hover {
+    color: #747bff;
+  }
+
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+.custom-color1 {
+  color: #C5FB01;
+}
+
+.raleway-base {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.raleway-medium {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.gradient-background {
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle, #3d6112 1.42%, rgba(8, 38, 3, 0.5) 40.53%, rgba(5, 25, 3, 0.6) 60.25%, rgba(3, 13, 1, 0.5) 95.26%, rgba(10, 35, 6, 0.6) 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.gradient-mech {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(250.71deg, #dede93 29.78%, rgba(197, 251, 1, 0.4) 29.78%),
+  linear-gradient(259.7deg, rgba(197, 251, 1, 0.3) 28.78%, rgba(244, 244, 244, 0.3) 73.37%);
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  text-align: center;
+}
+
+.text-content {
+  font-family: "Raleway", sans-serif;
+  color: white;
+}
+
+.custom-bg{
+ background-color: #05180f;
+}
+
+
+
+
+
+.swiper {
+  width: 100%;
+  height: 100%;
+
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.custom-next,
+.custom-prev {
+  cursor: pointer;
+  color: black; 
+}
+
+.custom-next:hover,
+.custom-prev:hover {
+  color: grey; 
+}
+
+.nextpos{
+  right:14vw
+}
+.prevpos{
+  left:14vw
+}
+
